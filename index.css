@@ -88,4 +88,9 @@ body {
   overflow: hidden;
 }
 
+.comment {
+  .card-body {
+    overflow-wrap: break-word;
+  }
+} 
 
