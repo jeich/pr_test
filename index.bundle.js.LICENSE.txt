@@ -4,6 +4,8 @@
 	http://jedwatson.github.io/classnames
 */
 
+/*! @license DOMPurify 3.0.6 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.0.6/LICENSE */
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -45,11 +47,54 @@
  */
 
 /**
+ * @license React
+ * use-sync-external-store-shim.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.9.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
  * Checks if two values are equal. Values may be primitives, arrays, or objects.
  * Returns true if both arguments have the same keys and values.
  *
  * @see http://underscorejs.org
  * @copyright 2009-2013 Jeremy Ashkenas, DocumentCloud Inc.
+ * @license MIT
+ */
+
+/**
+ * React Router DOM v6.16.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.16.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
  * @license MIT
  */
 

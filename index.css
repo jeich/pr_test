@@ -1,6 +1,91 @@
 a {
-    text-decoration: none
+  text-decoration: none;
 }
+.link {
+  color: var(--bs-blue);
+  cursor: pointer;
+}
+.background {
+  background-color: var(--bs-body-bg);
+}
+.background-disabled {
+  background-color: var(--bs-gray-100);
+}
+.secondary-text {
+  font-size: 0.8em;
+}
+.tertiary-text {
+  font-size: 0.75em;
+}
+body,
+[data-bs-theme="light"],
+[data-bs-theme="dark"] {
+  --bs-body-font-size: 0.9em;
+}
+.dropdown-menu {
+  --bs-dropdown-font-size: 0.9em;
+}
+.bold-text {
+  font-weight: 600;
+}
+/* reviews */
+.removed-line {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.added-line {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+.removed-line-emphasis {
+  background-color: rgba(255, 0, 0, 0.4);
+  font-weight: 500;
+}
+.added-line-emphasis {
+  background-color: rgba(0, 255, 0, 0.4);
+  font-weight: 500;
+}
+.line-number {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-right: 1px var(--bs-border-color-translucent) solid;
+  padding-right: 1ch;
+  text-align: end;
+}
+.file-table {
+  .code-row, .line-number {
+    font-family: monospace;
+  }
+}
+.code-row {
+  white-space: pre;
+  text-indent: -2ch;
+  padding-left: 2ch;
+  text-wrap: wrap;
+}
+.summary-box {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.2em;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+}
+/* for tooltip glitch */
 body {
-    font-size: 0.9em
+  overflow: hidden;
 }
+
+
