@@ -94,3 +94,11 @@ body {
   }
 } 
 
+#commits-container::-webkit-scrollbar {
+  display: none;
+}
+#commits-container {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
